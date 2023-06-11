@@ -48,7 +48,7 @@ let data = [
           <img src="${product.img}" class="card-img-top" alt="${product.name}" style="max-height: 300px;">
           <div class="card-body">
             <h5 class="card-title">${product.name}</h5>
-            <button onclick={loadModal(${product.id})} href="#" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">Ver detalles</button>
+            <button onclick={loadModal(${product.id})} href="#" class="btn btn-primary" data-toggle="modal" data-target="#modalProduct">Ver detalles</button>
           </div>
         </div>
       </div>
@@ -64,16 +64,16 @@ function loadModal(index) {
   
     const modalHTML = `
       <div class="modal-header">
-        <h5 class="modal-title text-white" id="exampleModalLabel">Detalles del producto</h5>
+        <h5 class="modal-title text-white" id="modalProductLabel">Detalles del producto</h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
       </div>
       <div class="modal-body d-flex">
-        <div class="col-6">
+        <div class="col-sm-12 col-lg-6">
           <img src="/${product.img}" class="img-fluid modal-image" alt="${product.name}">
         </div>
-        <div class="col-6">
+        <div class="col-sm-12 col-lg-6 mt-2">
           <h4 class="text-primary">${product.name}</h4>
           <p class="font-weight-bold">Precio: $${product.price}</p>
           <p>${product.description}</p>
