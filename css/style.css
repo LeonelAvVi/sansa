@@ -5574,6 +5574,21 @@ a.close.disabled {
   background-color: var(--purple);
   color: #fff;
 }
+
+.btn-outline-purple{
+  border-color: var(--purple);
+  color: var(--purple);
+}
+
+.btn-outline-purple:hover{
+  background-color: var(--purple);
+  color: #fff;
+}
+
+.font-chicken{
+  font-family:  "Chicken", sans-serif;
+}
+
 #about h2{
   font-family:  "Chicken", sans-serif;
   color: #BD4AFF !important;
@@ -9839,14 +9854,67 @@ h6,
   background-size: cover;
 }
 
+#product-section{
+  background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)), url(../images/bg-patron.jpg), no-repeat center center;
+  background-size: cover;
+}
+
 .bg-pricing {
-  background: linear-gradient(rgba(33, 30, 28, 0.7), rgba(33, 40, 28, 0.7)), url(../img/carousel-2.jpg), no-repeat center center;
+  background: linear-gradient(rgba(33, 30, 28, 0.7), rgba(33, 40, 28, 0.7)), url(../img/carousel-2.jpg), no-repeat top;
   background-size: cover;
 }
 
 .bg-jumbotron {
-  background: linear-gradient(rgba(33, 30, 28, 0.7), rgba(33, 40, 28, 0.7)), url(../img/carousel-3.jpg), no-repeat center center;
+  background: linear-gradient(rgba(30, 24, 68, 0.7), rgba(30, 24, 68, 0.7)), url(../images/banner.jpg), no-repeat center center;
   background-size: cover;
+}
+
+.btn-pink {
+  background-color: #F318B1;
+  border: 1px solid #F9A392;
+  color: #FFFFFF;
+  border-radius: 99px;
+  transition: .5s;
+}
+
+.btn-pink:hover {
+  background-color: #F9A392;
+  border: 1px solid #F9A392;
+  color: #FFFFFF;
+}
+
+.btn-pink-outline {
+  background-color: white;
+  border: 2px solid #F318B1;
+  color: #F318B1;
+  border-radius: 99px;
+  transition: .5s;
+}
+
+.btn-pink-outline:hover {
+  background-color: #F318B1;
+  border: 2px solid #F318B1;
+  color: #FFFFFF;
+}
+
+.modal-image {
+  max-width: 100%;
+  max-height: 60vh;
+}
+
+#gallery img {
+  width: 100%;
+  object-fit: cover;
+  max-height: 250px;
+  margin-top: 16px;
+}
+
+#modalImage-content{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 @media (min-width: 992px) {
@@ -9859,6 +9927,11 @@ h6,
 
 .team img {
   position: relative;
+  max-height: 250px;
+  min-height: 250px;
+  width: 100%;
+  object-fit: cover;
+  object-position: top;
   z-index: 1;
 }
 

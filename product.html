@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Sansa - Contáctanos</title>
+    <title>Sansa Designs - Productos</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="Free HTML Templates" name="keywords">
     <meta content="Free HTML Templates" name="description">
@@ -70,7 +70,7 @@
                 <div class="navbar-nav m-auto py-0">
                     <a href="index.html" class="nav-item nav-link">Inicio</a>
                     <a href="about.html" class="nav-item nav-link">Nosotros</a>
-                    <a href="product.html" class="nav-item nav-link">Productos</a>
+                    <a href="product.html" class="nav-item nav-link active">Productos</a>
                     <!-- <a href="price.html" class="nav-item nav-link">Pricing</a> -->
                     <!-- <div class="nav-item dropdown">
                         <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Pages</a>
@@ -83,7 +83,7 @@
                     </div> -->
                     <a href="gallery.html" class="nav-item nav-link">Galería</a>
                 </div>
-                <a href="#" class="btn btn-purple d-none d-lg-block">Contáctanos</a>
+                <a href="contact.html" class="btn btn-purple d-none d-lg-block">Contáctanos</a>
             </div>
         </nav>
     </div>
@@ -91,64 +91,71 @@
 
 
     <!-- Header Start -->
-    <div class="jumbotron jumbotron-fluid bg-jumbotron" style="margin-bottom: 90px;">
+    <div class="jumbotron jumbotron-fluid bg-jumbotron">
         <div class="container text-center py-5">
-            <h3 class="text-white display-3 mb-4">Mándanos un mensaje</h3>
+            <h3 class="text-white display-3 mb-4 font-chicken">Un producto una historia</h3>
             <div class="d-inline-flex align-items-center text-white">
                 <p class="m-0"><a class="text-white" href="">Inicio</a></p>
                 <i class="far fa-circle px-3"></i>
-                <p class="m-0">Contacto</p>
+                <p class="m-0">Productos</p>
             </div>
         </div>
     </div>
     <!-- Header End -->
 
 
-    <!-- Contact Start -->
-    <div class="container-fluid py-5">
+    <!-- About Start -->
+    <div id="product-section" class="container-fluid py-0">
         <div class="container py-5">
+            <h1 class="text-center mt-5">Accesorios Sansa</h1>
             <div class="row">
-                <div class="col-lg-6" style="min-height: 500px;">
-                    <div class="position-relative h-100">
-                        <iframe class="position-absolute w-100 h-100" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3771.3843425893347!2d-65.26333062065427!3d-19.046832000000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x93fbcf7accf62efb%3A0x8a594e3a6406ea84!2sPlaza%20de%20Armas%2025%20de%20Mayo!5e0!3m2!1ses-419!2sbo!4v1686420125581!5m2!1ses-419!2sbo" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-                    </div>
+                <div class="col-12 d-flex justify-content-center">
+
+                    <button class="btn btn-pink mx-auto mt-5">Ver todos</button>
+                    <button class="btn btn-pink-outline mx-auto mt-5">Mochilas</button>
+                    <button class="btn btn-pink-outline mx-auto mt-5">Billeteras</button>
+                    <button class="btn btn-pink-outline mx-auto mt-5">Carteras</button>
+                    <button class="btn btn-pink-outline mx-auto mt-5">Poleras</button>
+                    <button class="btn btn-pink-outline mx-auto mt-5">Bolsitas de Coca</button>
                 </div>
-                <div class="col-lg-6 pt-5 pb-lg-5">
-                    <div class="contact-form bg-purple-ligth p-4 p-lg-5 my-lg-5">
-                        <h6 class="d-inline-block text-white text-uppercase bg-purple py-1 px-2">Contáctanos</h6>
-                        <h1 class="mb-4">Mándanos un mensaje</h1>
-                        <form>
-                            <div class="form-row">
-                                <div class="col-sm-6 control-group">
-                                    <input type="text" class="form-control border-0 p-4" id="name" placeholder="Nombre..."
-                                        required="required" data-validation-required-message="Introduzca su nombre..." />
-                                    <p class="help-block text-danger"></p>
-                                </div>
-                                <div class="col-sm-6 control-group">
-                                    <input type="city" class="form-control border-0 p-4" id="city" placeholder="Ciudad..."
-                                        required="required" data-validation-required-message="Introduzca la Ciudad" />
-                                    <p class="help-block text-danger"></p>
-                                </div>
-                            </div>
-                            <div class="control-group">
-                                <textarea class="form-control border-0 py-3 px-4" rows="3" id="message" placeholder="Mensaje"
-                                    required="required"
-                                    data-validation-required-message="Por favor escriba su mensaje..."></textarea>
-                                <p class="help-block text-danger"></p>
-                            </div>
-                            <div>
-                                <button class="btn btn-purple py-3 px-4" id="button-send">Enviar Mensaje</button>
-                            </div>
-                        </form>
-                    </div>
-                </div>
+            </div>
+            <div class="row mt-4" id="listProduct">  
+                
             </div>
         </div>
     </div>
-    <!-- Contact End -->
+    <!-- About End -->
 
 
-    <!-- Footer Start -->
+
+      
+      <!-- Modal -->
+      <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog  modal-lg" role="document">
+          <div class="modal-content" id="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Detalles del producto</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body d-flex">
+                <div class="col-6">
+                    <img src="images/productos/slide1.jpg" class="img-fluid modal-image" alt="Accesorio 2">
+                </div>
+                <div class="col-6">
+                    <p>Descripción detallada del producto.</p>
+                </div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+
+
     <!-- Footer Start -->
     <div class="footer container-fluid position-relative bg-blue-dark py-5">
         <div class="container pt-5">
@@ -224,6 +231,8 @@
 
     <!-- Back to Top -->
     <a href="#" class="btn btn-lg bg-pink text-white back-to-top"><i class="fa fa-angle-double-up"></i></a>
+
+
     <!-- JavaScript Libraries -->
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
@@ -238,6 +247,10 @@
     <!-- Contact Javascript File -->
     <script src="mail/jqBootstrapValidation.min.js"></script>
     <script src="mail/contact.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+    <script src="js/index.js"></script>
 
     <script>
         document.getElementById('btn-send-footer').addEventListener('click', function() {
@@ -258,27 +271,7 @@
 
     </script>
 
-    <script>
-        document.getElementById('button-send').addEventListener('click', function(event) {
-        event.preventDefault(); // Evita que el formulario se envíe de manera convencional
-
-        var name = document.getElementById('name').value;
-        var city = document.getElementById('city').value;
-        var message = document.getElementById('message').value;
-
-        var phoneNumber = '123456789'; // Reemplaza con tu número de celular
-        var formattedPhoneNumber = phoneNumber.replace(/\D/g, ''); // Elimina cualquier carácter que no sea un dígito
-
-        var formattedMessage = encodeURIComponent('¡Hola! Mi nombre es ' + name + ', soy de ' + city + '. Quisiera hacer una consulta sobre: ' + message);
-
-        var url = 'https://api.whatsapp.com/send?phone=' + formattedPhoneNumber + '&text=' + formattedMessage;
-
-        window.open(url, '_blank');
-        });
-
-    </script>
-    <!-- Template Javascript -->
-    <script src="js/main.js"></script>
+    <script>loadProducts() </script>
 </body>
 
 </html>
