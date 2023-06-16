@@ -10,7 +10,7 @@
     
 
     <!-- Favicon -->
-    <link href="img/favicon.ico" rel="icon">
+<link href="images/icon.ico" rel="icon">
 
     <!-- Google Web Fonts -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -111,7 +111,7 @@
             <div class="row">
                 <div class="col-lg-6" style="min-height: 500px;">
                     <div class="position-relative h-100">
-                        <iframe class="position-absolute w-100 h-100" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3771.3843425893347!2d-65.26333062065427!3d-19.046832000000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x93fbcf7accf62efb%3A0x8a594e3a6406ea84!2sPlaza%20de%20Armas%2025%20de%20Mayo!5e0!3m2!1ses-419!2sbo!4v1686420125581!5m2!1ses-419!2sbo" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                        <iframe class="position-absolute w-100 h-100" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3771.7541968769274!2d-65.26212578961132!3d-19.030550010856363!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x93fbc8c8790a138b%3A0xe682e2a2850d2ddf!2sArturo%20Posnaski%20225%2C%20Sucre!5e0!3m2!1ses!2sbo!4v1686927319552!5m2!1ses!2sbo" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
                     </div>
                 </div>
                 <div class="col-lg-6 pt-5 pb-lg-5">
@@ -260,23 +260,16 @@
     </script>
 
     <script>
-        document.getElementById('button-send').addEventListener('click', function(event) {
-        event.preventDefault(); // Evita que el formulario se envíe de manera convencional
-
-        var name = document.getElementById('name').value;
-        var city = document.getElementById('city').value;
-        var message = document.getElementById('message').value;
-
-        var phoneNumber = '123456789'; // Reemplaza con tu número de celular
-        var formattedPhoneNumber = phoneNumber.replace(/\D/g, ''); // Elimina cualquier carácter que no sea un dígito
-
-        var formattedMessage = encodeURIComponent('¡Hola! Mi nombre es ' + name + ', soy de ' + city + '. Quisiera hacer una consulta sobre: ' + message);
-
-        var url = 'https://api.whatsapp.com/send?phone=' + formattedPhoneNumber + '&text=' + formattedMessage;
-
-        window.open(url, '_blank');
+        var buttonSend = document.getElementById('button-send');
+        buttonSend.addEventListener('click', function(event) {
+            event.preventDefault();
+            var name = document.getElementById('name').value;
+            var city = document.getElementById('city').value;
+            var message = document.getElementById('message').value;
+            var emailBody = 'Nombre: ' + name + '\nCiudad: ' + city + '\nMensaje: ' + message;
+            var mailtoLink = 'mailto:sansadesignsbo@gmail.com?subject=Mensaje de contacto&body=' + encodeURIComponent(emailBody);
+            window.location.href = mailtoLink;
         });
-
     </script>
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
