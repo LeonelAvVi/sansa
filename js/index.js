@@ -23,12 +23,12 @@ let data = [
     },
     {
       "id": 3,
-      "name": "Mochila",
+      "name": "Mochila Negro",
       "price": 155,
       "img": "images/productos/slide4.jpg",
       "description": "Mochila resistente y sostenible para el día a día",
       "img": "images/productos/slide4.jpg",
-      "color":"Plomo, naranja, celeste, fucsia, negro",
+      "color":"Negro",
       "size": " 27cm largo x 23 cm alto (abierta)",
       "material": " Aguayo de Lana de oveja",
       "category":"mochila"
@@ -39,7 +39,7 @@ let data = [
       "price": 70,
       "description": "Bolsita de coca hecha a mano con detalles auténticos",
       "img": "images/productos/slide2.jpg",
-      "color": " Negro y franjas",
+      "color": " Negro",
       "size": "20cm largo x 21 cm alto (abierta)",
       "material": "Aguayo de lana de oveja",
       "category":"coca"
@@ -54,7 +54,172 @@ let data = [
       "size": "Hombres tallas: XL L M S / Mujeres: L M S",
       "material":"Algodón",
       "category":"polera"
-    }
+    },
+    {
+      "id": 6,
+      "name": "Billetera Guinda",
+      "price": 85,
+      "description":"Billetera ecológica de diseño único",
+      "img": "images/productos/new/Billetera guinda.jpg",
+      "color": " Guinda",
+      "size": " 20cm largo x 10 cm alto (abierta)",
+      "material": "Aguayo de lana de oveja.",
+      "category":"billetera"
+    },
+    {
+      "id": 7,
+      "name": "Billetera Ploma",
+      "price": 85,
+      "description":"Billetera ecológica de diseño único",
+      "img": "images/productos/new/Billetera ploma.jpg",
+      "color": " Plomo",
+      "size": " 20cm largo x 10 cm alto (abierta)",
+      "material": "Aguayo de lana de oveja.",
+      "category":"billetera"
+    },
+    {
+      "id": 0,
+      "name": "Billetera Azul",
+      "price": 85,
+      "description":"Billetera ecológica de diseño único",
+      "img": "images/productos/new/billetera posición 2.jpg",
+      "color": " azul",
+      "size": " 20cm largo x 10 cm alto (abierta)",
+      "material": "Aguayo de lana de oveja.",
+      "category":"billetera"
+    },
+    {
+      "id": 8,
+      "name": "Bolsita de Franjas",
+      "price": 70,
+      "description": "Bolsita de coca hecha a mano con detalles auténticos",
+      "img": "images/productos/new/Bolsita de coca franjas.jpg",
+      "color": " franjas",
+      "size": "20cm largo x 21 cm alto (abierta)",
+      "material": "Aguayo de lana de oveja",
+      "category":"coca"
+    },
+    {
+      "id": 9,
+      "name": "Cartera de Mano Blanco",
+      "price": 105,
+      "description": "Cartera ecológica de diseño único",
+      "img": "images/productos/new/Cartera de mano blanca.jpg",
+      "color": "Blanco",
+      "size": " 26cm largo x 15 cm alto (abierta)",
+      "material": " Aguayo de lana de oveja, Yute",
+      "category":"cartera"
+    },
+    {
+      "id": 10,
+      "name": "Cartera de Mano Marrón",
+      "price": 105,
+      "description": "Cartera ecológica de diseño único",
+      "img": "images/productos/new/Cartera de mano cafe.jpg",
+      "color": "Blanco",
+      "size": " 26cm largo x 15 cm alto (abierta)",
+      "material": " Aguayo de lana de oveja, Yute",
+      "category":"cartera"
+    },
+    {
+      "id": 11,
+      "name": "Cartera de Mano Guinda",
+      "price": 105,
+      "description": "Cartera ecológica de diseño único",
+      "img": "images/productos/new/Cartera de mano Guinda.jpg",
+      "color": "Guinda",
+      "size": " 26cm largo x 15 cm alto (abierta)",
+      "material": " Aguayo de lana de oveja, Yute",
+      "category":"cartera"
+    },
+    {
+      "id": 12,
+      "name": "Cartera de Mano Lila",
+      "price": 105,
+      "description": "Cartera ecológica de diseño único",
+      "img": "images/productos/new/Cartera de mano Lila.jpg",
+      "color": "Lila",
+      "size": " 26cm largo x 15 cm alto (abierta)",
+      "material": " Aguayo de lana de oveja, Yute",
+      "category":"cartera"
+    },
+    {
+      "id": 13,
+      "name": "Cartera de Mano morada",
+      "price": 105,
+      "description": "Cartera ecológica de diseño único",
+      "img": "images/productos/new/Cartera de mano morada.jpg",
+      "color": "morada",
+      "size": " 26cm largo x 15 cm alto (abierta)",
+      "material": " Aguayo de lana de oveja, Yute",
+      "category":"cartera"
+    },
+    {
+      "id": 14,
+      "name": "Cartera de Mano negra",
+      "price": 105,
+      "description": "Cartera ecológica de diseño único",
+      "img": "images/productos/new/Cartera de mano negra.jpg",
+      "color": "negra",
+      "size": " 26cm largo x 15 cm alto (abierta)",
+      "material": " Aguayo de lana de oveja, Yute",
+      "category":"cartera"
+    },
+    {
+      "id": 15,
+      "name": "Cartera de Mano verde",
+      "price": 105,
+      "description": "Cartera ecológica de diseño único",
+      "img": "images/productos/new/cartera de mano verde.jpg",
+      "color": "verde",
+      "size": " 26cm largo x 15 cm alto (abierta)",
+      "material": " Aguayo de lana de oveja, Yute",
+      "category":"cartera"
+    },
+    {
+      "id": 16,
+      "name": "Cartera de Mano Naranja",
+      "price": 105,
+      "description": "Cartera ecológica de diseño único",
+      "img": "images/productos/new/carteranaranja.jpg",
+      "color": "Naranja",
+      "size": " 26cm largo x 15 cm alto (abierta)",
+      "material": " Aguayo de lana de oveja, Yute",
+      "category":"cartera"
+    },
+    {
+      "id": 17,
+      "name": "Mochila celeste",
+      "price": 155,
+      "img": "images/productos/new/mochila celeste.jpg",
+      "description": "Mochila resistente y sostenible para el día a día",
+      "color":"celeste",
+      "size": " 27cm largo x 23 cm alto (abierta)",
+      "material": " Aguayo de Lana de oveja",
+      "category":"mochila"
+    },
+    {
+      "id": 19,
+      "name": "Mochila Fucsia",
+      "price": 155,
+      "img": "images/productos/new/Mochila Fucsia.jpg",
+      "description": "Mochila resistente y sostenible para el día a día",
+      "color":"Fucsia",
+      "size": " 27cm largo x 23 cm alto (abierta)",
+      "material": " Aguayo de Lana de oveja",
+      "category":"mochila"
+    },
+    {
+      "id": 18,
+      "name": "Mochila Gris",
+      "price": 155,
+      "img": "images/productos/new/mochila gris.jpg",
+      "description": "Mochila resistente y sostenible para el día a día",
+      "color":"Gris",
+      "size": " 27cm largo x 23 cm alto (abierta)",
+      "material": " Aguayo de Lana de oveja",
+      "category":"mochila"
+    },
   ];
   
 
@@ -65,7 +230,7 @@ let data = [
     html += `
       <div class="col-lg-4 col-md-6 mt-5">
         <div class="card shadow">
-          <img src="${product.img}" class="card-img-top" alt="${product.name}" style="max-height: 300px;">
+          <img src="${product.img}" class="card-img-top card-img-size" alt="${product.name}" style="max-height: 300px;">
           <div class="card-body">
             <h5 class="card-title">${product.name}</h5>
             <button onclick={loadModal(${product.id})} href="#" class="btn btn-primary" data-toggle="modal" data-target="#modalProduct">Ver detalles</button>
@@ -147,7 +312,7 @@ function loadCategory(category) {
       html += `
       <div class="col-lg-4 col-md-6 mt-5">
         <div class="card shadow">
-          <img src="${product.img}" class="card-img-top" alt="${product.name}" style="max-height: 300px;">
+          <img src="${product.img}" class="card-img-top card-img-size" alt="${product.name}" style="max-height: 300px; min-height: 300px;">
           <div class="card-body">
             <h5 class="card-title">${product.name}</h5>
             <button onclick={loadModal(${product.id})} href="#" class="btn btn-primary" data-toggle="modal" data-target="#modalProduct">Ver detalles</button>
@@ -209,3 +374,14 @@ document.getElementById('all-product').addEventListener('click', function() {
   loadProducts();
 });
               
+
+window.onload = function() {
+  // Obtener el fragmento de la URL después del #
+  var fragmento = window.location.hash.substr(1);
+
+  // Verificar si hay un fragmento válido
+  if (fragmento) {
+    // Llamar a la función loadCategory con el valor del fragmento
+    loadCategory(fragmento);
+  }
+};

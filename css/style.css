@@ -4483,6 +4483,11 @@ input[type="button"].btn-block {
   width: 100%;
 }
 
+.card-img-size{
+  min-height: 300px;
+  max-height: 300px;
+  object-fit: cover;
+}
 .card-deck .card {
   margin-bottom: 15px;
 }
@@ -9915,6 +9920,14 @@ h6,
   align-items: center;
   padding-top: 24px;
   padding-bottom: 24px;
+}
+.title-xq{
+  font-family: "Chicken", sans-serif;
+}
+.text-xq{
+  padding-left: 32px;
+  padding-right: 32px;
+  font-size: 1.5em;
 }
 .where h3{
   font-size: 2.5rem;
