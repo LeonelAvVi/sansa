@@ -243,7 +243,19 @@ let data = [
   return html;
 }
 
+function senMessage (nombre, precio, color){
 
+  var phoneNumber = "59172897805";
+  
+  // Construye el mensaje personalizado solicitando más información sobre el accesorio
+  var message = "Hola, estoy interesado en obtener más información sobre el accesorio " + nombre + ". ¿Podrías proporcionarme más detalles?";
+  
+  // Construye la URL de WhatsApp con el número de teléfono y el mensaje
+  var whatsappURL = "https://api.whatsapp.com/send?phone=" + phoneNumber + "&text=" + encodeURIComponent(message);
+  
+  // Abre la ventana de WhatsApp con el mensaje predefinido
+  window.open(whatsappURL);
+}
 
 function loadModal(index) {
     const product = data.find(item => item.id === index);
@@ -282,19 +294,7 @@ function loadModal(index) {
   }
   
   
-function senMessage (nombre){
 
-  var phoneNumber = "59172897805";
-  
-  // Construye el mensaje personalizado solicitando más información sobre el accesorio
-  var message = "Hola, estoy interesado en obtener más información sobre el accesorio '" + nombre + "'. ¿Podrías proporcionarme más detalles?";
-  
-  // Construye la URL de WhatsApp con el número de teléfono y el mensaje
-  var whatsappURL = "https://api.whatsapp.com/send?phone=" + phoneNumber + "&text=" + encodeURIComponent(message);
-  
-  // Abre la ventana de WhatsApp con el mensaje predefinido
-  window.open(whatsappURL);
-}
 
 // Llamada a la función y asignación del resultado al div con id "listProduct"
 function loadProducts() {
