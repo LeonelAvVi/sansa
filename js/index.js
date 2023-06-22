@@ -243,17 +243,27 @@ let data = [
   return html;
 }
 
-function senMessage (nombre, precio, color){
+function sendMessage (nombre){
+  alert(nombre);
+  console.log(nombre);
+  // var phoneNumber = "59172897805";
+  // console.log(phoneNumber);
+  // // Construye el mensaje personalizado solicitando más información sobre el accesorio
+  // var message = "Hola, estoy interesado en obtener más información sobre el accesorio " + nombre + ". ¿Podrías proporcionarme más detalles?";
+  
+  // // Construye la URL de WhatsApp con el número de teléfono y el mensaje
+  // var whatsappURL = "https://api.whatsapp.com/send?phone=" + phoneNumber + "&text=" + encodeURIComponent(message);
+  // console.log(whatsappURL);
+  // // Abre la ventana de WhatsApp con el mensaje predefinido
+  // window.open(whatsappURL);
+}
+
+
+function enviarMensaje (nombre){
 
   var phoneNumber = "59172897805";
-  
-  // Construye el mensaje personalizado solicitando más información sobre el accesorio
   var message = "Hola, estoy interesado en obtener más información sobre el accesorio " + nombre + ". ¿Podrías proporcionarme más detalles?";
-  
-  // Construye la URL de WhatsApp con el número de teléfono y el mensaje
   var whatsappURL = "https://api.whatsapp.com/send?phone=" + phoneNumber + "&text=" + encodeURIComponent(message);
-  
-  // Abre la ventana de WhatsApp con el mensaje predefinido
   window.open(whatsappURL);
 }
 
@@ -285,7 +295,7 @@ function loadModal(index) {
         </div>
       </div>
       <div class="modal-footer">
-        <button onclick={senMessage('${product.name}')} type="button" class="btn btn-primary">Comprar</button>
+      <button onclick="enviarMensaje('${product.name}')" type="button" class="btn btn-primary">Comprar</button>
         <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
       </div>
     `;
