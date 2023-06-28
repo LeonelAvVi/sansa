@@ -1,22 +1,22 @@
 let data = [
     {
       "id": 1,
-      "name": "Billetera",
+      "name": "Billetera Negra",
       "price": 85,
       "description":"Billetera ecológica de diseño único",
       "img": "images/productos/slide1.jpg",
-      "color": " azul, naranja, negro, morado, guindo, lila.",
+      "color": " Negro",
       "size": " 20cm largo x 10 cm alto (abierta)",
       "material": "Aguayo de lana de oveja.",
       "category":"billetera"
     },
     {
       "id": 2,
-      "name": "Cartera de Mano",
+      "name": "Cartera de Mano Fucsia",
       "price": 105,
       "description": "Cartera ecológica de diseño único",
       "img": "images/productos/slide3.jpg",
-      "color": " Celeste, verde, fucsia, azul, naranja, negro, morado, blanco, guinda, lila, café",
+      "color": " Fucsia",
       "size": " 26cm largo x 15 cm alto (abierta)",
       "material": " Aguayo de lana de oveja, Yute",
       "category":"cartera"
@@ -101,7 +101,7 @@ let data = [
     },
     {
       "id": 9,
-      "name": "Cartera de Mano Blanco",
+      "name": "Cartera de Mano Blanca",
       "price": 105,
       "description": "Cartera ecológica de diseño único",
       "img": "images/productos/new/Cartera de mano blanca.jpg",
