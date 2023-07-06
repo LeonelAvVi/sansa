@@ -220,7 +220,6 @@ let data = [
       "material": " Aguayo de Lana de oveja",
       "category":"mochila"
     },
- 
   ];
   
 
