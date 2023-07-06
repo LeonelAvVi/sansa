@@ -23,7 +23,7 @@ let data = [
     },
     {
       "id": 3,
-      "name": "Mochila Negro",
+      "name": "Mochila Negra",
       "price": 155,
       "img": "images/productos/slide4.jpg",
       "description": "Mochila resistente y sostenible para el día a día",
