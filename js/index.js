@@ -220,6 +220,17 @@ let data = [
       "material": " Aguayo de Lana de oveja",
       "category":"mochila"
     },
+    {
+      "id": 20,
+      "name": "Mochila Gris prueba",
+      "price": 130,
+      "img": "images/productos/new/prueba.jpg",
+      "description": "Mochila fuera de stock",
+      "color":"Plomo",
+      "size": " 27cm largo x 23 cm alto (abierta)",
+      "material": " Aguayo de Lana de oveja",
+      "category":"mochila"
+    },
   ];
   
 
