@@ -231,6 +231,17 @@ let data = [
     "material": "Algodón",
     "category":"polera"
     },
+    {
+      "id": 22,
+      "name": "Mochila Gris",
+      "price": 155,
+      "img": "images/productos/new/polera 1.jpg",
+      "description": "Mochila resistente y sostenible para el día a día",
+      "color":"Gris",
+      "size": " 27cm largo x 23 cm alto (abierta)",
+      "material": " Aguayo de Lana de oveja",
+      "category":"mochila"
+    },
   ];
   
 
