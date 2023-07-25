@@ -50,7 +50,7 @@ let data = [
       "price": 150,
       "description": "Polera de algodón orgánico con diseños inspirados en la cultura tradicional",
       "img": "images/productos/slide6.jpg",
-      "color": "Blanco",
+      "color": "Blanca",
       "size": "Hombres tallas: XL L M S / Mujeres: L M S",
       "material":"Algodón",
       "category":"polera"
@@ -219,6 +219,17 @@ let data = [
       "size": " 27cm largo x 23 cm alto (abierta)",
       "material": " Aguayo de Lana de oveja",
       "category":"mochila"
+    },
+    {
+    "id": 20,
+    "name": "Polera Esencia Bolivia",
+    "price": 160,
+    "img": "images/productos/new/Polera Bolvia Blanca.jpg",
+    "description": "Polera 100% algodón, su diseño captura la esencia de ser boliviano",
+    "color":"Blanca",
+    "size": "Hombres tallas: XXL XL L M S / Mujeres: XXL XL L M S",
+    "material": "Algodón",
+    "category":"polera"
     },
   ];
   
