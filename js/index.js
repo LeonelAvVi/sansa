@@ -231,6 +231,17 @@ let data = [
       "material": " Algodón",
       "category":"polera"
     },
+    {
+      "id": 20,
+      "name": "Polera Esencia Bolivia",
+      "price": 160,
+      "img": "images/productos/new/Polera 2.jpg",
+      "description": "Polera 100% algodón, su diseño representa la esencia de ser boliviano",
+      "color":"Negra",
+      "size": " Hombres tallas: XXL XL L M S / Mujeres: XXL XL L M S",
+      "material": " 100% Algodón",
+      "category":"mochila"
+    },
   ];
   
 
