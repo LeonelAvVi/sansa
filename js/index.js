@@ -220,6 +220,17 @@ let data = [
       "material": " Aguayo de Lana de oveja",
       "category":"mochila"
     },
+    {
+      "id": 21,
+      "name": "Polera Esencia Bolivia",
+      "price": 160,
+      "img": "images/productos/new/Polera 1.jpg",
+      "description": "Polera 100% algodón, su diseño representa la esencia de ser boliviano",
+      "color":"Blanca",
+      "size": " Hombres tallas: XXL XL L M S / Mujeres: XXL XL L M S ",
+      "material": " Algodón",
+      "category":"polera"
+    },
   ];
   
 
