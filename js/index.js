@@ -221,10 +221,10 @@ let data = [
       "category":"mochila"
     },
     {
-      "id": 21,
+      "id": 23,
       "name": "Polera Esencia Bolivia",
       "price": 160,
-      "img": "images/productos/new/Polera 1.jpg",
+      "img": "images/productos/new/Polera Blanca.jpg",
       "description": "Polera 100% algodón, su diseño representa la esencia de ser boliviano",
       "color":"Blanca",
       "size": " Hombres tallas: XXL XL L M S / Mujeres: XXL XL L M S ",
@@ -232,15 +232,15 @@ let data = [
       "category":"polera"
     },
     {
-      "id": 20,
+      "id": 22,
       "name": "Polera Esencia Bolivia",
       "price": 160,
-      "img": "images/productos/new/Polera 2.jpg",
+      "img": "images/productos/new/Polera Negra.jpg",
       "description": "Polera 100% algodón, su diseño representa la esencia de ser boliviano",
       "color":"Negra",
       "size": " Hombres tallas: XXL XL L M S / Mujeres: XXL XL L M S",
-      "material": " 100% Algodón",
-      "category":"mochila"
+      "material": " Algodón",
+      "category":"polera"
     },
   ];
   
